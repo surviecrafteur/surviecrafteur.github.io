@@ -13,24 +13,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pyrolamacraft</title>
-    <link rel="shortchut icon" href="http://127.0.0.1:5500/image/tab.png"/>
-    <link rel="stylesheet" href="http://127.0.0.1:5500/style.css">
-    <img id="back" src="http://127.0.0.1:5500/image/back.png" alt="back">
+    <link rel="shortchut icon" href="https://surviecrafteur.github.io/image/tab.png"/>
+    <link rel="stylesheet" href="https://surviecrafteur.github.io/style/back.css">
+    <link rel="stylesheet" href="https://surviecrafteur.github.io/style/footer.css">
+    <link rel="stylesheet" href="https://surviecrafteur.github.io/style/header.css">
+    <link rel="stylesheet" href="https://surviecrafteur.github.io/style/nav.css">
+    <link rel="stylesheet" href="https://surviecrafteur.github.io/style/back/<?php echo $style?>.css">
+    <img id="back" src="https://surviecrafteur.github.io/image/back/<?php echo $style?>.png" alt="back">
 </head>
 <body>
     <header>
         <h1>pyrolamacraft</h1>
         <nav>
-            <button id="now" onclick="location.href='http://127.0.0.1:5500/fr/mods'">mods</button>
+            <button id="now" onclick="location.href='https://surviecrafteur.github.io/fr/mods'">mods</button>
             <button id="navoff">wiki</button>
             <button id="nav"  onclick="location.href='https://discord.gg/UgKK68wT4Y'">discord</button>
-            <button id="nav" onclick="location.href='http://127.0.0.1:5500/fr/'">francais</button>
+            <button id="nav" onclick="location.href='https://surviecrafteur.github.io/fr/'">francais</button>
         </nav>
     </header>
     <section>
         <br>
         <u id="but">
-            <button id="mods" onclick="location.href='http://127.0.0.1:5500/fr/mods/plcorebag.html'">PLCorebag </button>
+            <button id="mods" onclick="location.href='https://surviecrafteur.github.io/fr/mods/plcorebag.html'">PLCorebag </button>
             <button id="modsoff">PLCundiscoveredworld </button>
         </u>
     </section>
