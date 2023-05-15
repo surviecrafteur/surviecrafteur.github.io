@@ -1,0 +1,55 @@
+#butnav{
+    color: white;
+    background-color: #ff0000;
+    height:60px;
+    width: 60px;
+    cursor: pointer
+}
+#butnavoff{
+    color: white;
+    background-color: #ff0000;
+    height:60px;
+    width: 60px;
+    cursor: not-allowed
+}
+#nav:hover,#butnav:hover,#now:hover{
+    background-color: #ffff00e7;
+    color: black
+}
+#navoff{
+    color: white;
+    background-color: #ff0000;
+    height:81px;
+    width: 81px;
+    cursor: not-allowed
+}
+#nav{
+    color: white;
+    background-color: #ff0000;
+    height:81px;
+    width: 81px;
+    cursor: pointer
+}
+#now{
+    color: white;
+    background-color: #00ff00;
+    height:81px;
+    width: 81px;
+    cursor:pointer
+}
+#mods{
+    color: white;
+    background-color: #ff0000;
+    height:81px;
+    width: 100%;
+    margin-bottom: 10px;
+    cursor: pointer
+}
+#modsoff{
+    color: white;
+    background-color: #ff0000;
+    height:81px;
+    width: 100%;
+    margin-bottom: 10px;
+    cursor: not-allowed
+}
